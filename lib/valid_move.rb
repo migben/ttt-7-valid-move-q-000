@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, idx)
-  if idx.beetwen?(1, 9) && !position_taken?(board, idx)
+  if idx.beetwen?(1, 8) && !position_taken?(board, idx)
     return
   end
 end
